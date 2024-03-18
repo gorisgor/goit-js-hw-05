@@ -8,8 +8,7 @@
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
 
 const getUsersWithFriend = (users, friendName) => {
-  const friendsArray = users.filter(user => user.friends.includes(friendName));
-  return friendsArray;
+  return users.filter(user => user.friends.includes(friendName));
 };
 
 
