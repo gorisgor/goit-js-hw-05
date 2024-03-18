@@ -5,8 +5,8 @@ const getUserNames =(users) =>{
 let names = [];
 users.forEach(user => {
   names.push(user.name);
-});
-return names;
+  });
+  return names;
 };
 
 console.log(
